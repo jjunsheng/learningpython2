@@ -1,18 +1,34 @@
-print('''
-At University of Wollongong, plagarism is treated seriously.
-Read more about Plagarism on this website:
-http://www.uow.edu.au/student/services/ld/students/UOW021315.html
+degree_celsius = int(input('Celsius : '))
+degree_kelvin = degree_celsius + 273.15
+print(f'{degree_kelvin}C')
+
+degree_celsius = int(input('Celsius : '))
+degree_fahrenheit = (degree_celsius * (9/5)) + 32
+print(f'{degree_fahrenheit}F')
+
+name1 = "John"
+score1 = 56
+name2 = "Mary"
+score2 = 65
+name3 = "Peter"
+score3 = 89
+
+print(f'''
+Name      Score
+{name1}      {score1}
+{name2}      {score2}
+{name3}     {score3}
 ''')
 
-var1 = 'ong'
-var2 = 'jun'
-var3 = 'sheng'
+power = int(input('Enter power :'))
+for i in range(3):
+    i += 1
+    print(f'{i} {i ** power}')
 
-print(f'{var1} {var2} {var3}')
-print(f'{var1} {var3} {var2}')
-print(f'{var2} {var1} {var3}')
-print(f'{var2} {var3} {var1}')
-print(f'{var3} {var1} {var2}')
-print(f'{var3} {var2} {var1}')
+from datetime import datetime
+name = (input('Name :'))
+age = int(input('Age :'))
 
-
+today = datetime.now()
+hundredyear = today.year + 100 - age
+print(f'{name} will turn 100 years old in year {hundredyear}.')
