@@ -29,4 +29,3 @@ group_of_3_count = box_count // 3
 left_over_count = box_count - 3 * group_of_3_count
 cost = group_of_3_count * 10 + left_over_count * 4
 print("{0} candy boxes cost: ${1}".format(box_count, cost))
-

@@ -1,9 +1,3 @@
-print('''
-At University of Wollongong, plagarism is treated seriously.
-Read more about Plagarism on this website:
-http://www.uow.edu.au/student/services/ld/students/UOW021315.html
-''')
-
 var1 = 'ong'
 var2 = 'jun'
 var3 = 'sheng'
