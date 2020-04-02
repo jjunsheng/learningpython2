@@ -40,7 +40,7 @@ print("Released: June 18, 2015")
 print("Rating:   PG")
 print("Runtime:  102 minutes")
 print("Websites: http://movieweb.com/movie/inside-out-2015")
-
+print()
 
 # fullname.py
 first_name = "John"
@@ -67,14 +67,24 @@ sum = number1 + number2
 print("The sum of " + str(number1) + " and " + str(number2) + " is " + str(sum) + ".")
 
 
+# Constant
+# UPPER_CASE_WITH_UNDERSCORES
+SECOND_PER_MINUTE = 60
+minute = 5
+second = minute * SECOND_PER_MINUTE
+print(str(minute) + " minutes has " + str(second) + " seconds")
 
-# SECOND_PER_MINUTE = 60
-# minute = 5
-# second = minute * SECOND_PER_MINUTE
-# print(str(minute) + " minutes has " + str(second) + " seconds")
-#
-# first_name = "John" last_name = "Smith" full_name = first_name + " " + last_name
+
+# first_name = "John"
+# last_name = "Smith"
+# full_name = first_name + " " + last_name
 # fav_number = 7
 # subject1 = "ISIT111" subject2 = "MATH101" subject3 = "ACCY113"
 # SECOND_PER_MINUTE = 60
 # minute = 5 second = minute * SECOND_PER_MINUT
+# lower_case_with_underscore for variable
+# UPPER_CASE_WITH_UNDERSCORES for constant
+
+# build in python keywords
+# and elif if print as else import in return break class while for not def from or pass
+# raise assert except exec is try finally lambda continue with yield del global
