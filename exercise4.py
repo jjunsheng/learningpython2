@@ -58,4 +58,40 @@ for i in range(0, 4):
     else:
         print("odd")
 
-# 7
+7
+i = 11
+sum = 0
+while i < 20:
+    if i % 2 == 0:
+        print("i = {0}".format(i))
+        sum = sum + i
+    i += 1
+print("Total of even number is {0}.".format(sum))
+print()
+
+8
+for i in range(0, 5):
+    print("A|A|A|A|A|")
+print()
+
+for i in range(1, 6):
+    print("+=" * i)
+print()
+
+for i in range(5, 0, -1):
+    print("B|" * i)
+print()
+
+for i in range(1, 6):
+    a = 6 - i
+    print(":>" * a, end="  ")
+    print(":P" * i)
+print()
+
+for i in range(1, 9):
+    if i % 3 == 0:
+        print()
+    else:
+        i = str(i)
+        print(("{0})".format(i) * 5))
+print()
