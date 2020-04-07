@@ -25,14 +25,14 @@ print(s3)
 
 # ask the user how brownies to be served
 brownies_input = input("Would you like your chocolate brownies served hot or cold: ")
-if (brownies_input == "hot"):
+if brownies_input == "hot":
     brownies_serve_hot = True
 else:
     brownies_serve_hot = False
 
 # ask the user if they want to watch additional
 star_show_input = input("Add Stargazing Show: (Y/N) ")
-if ((star_show_input == "Y") or (star_show_input == "y")):
+if (star_show_input == "Y") or (star_show_input == "y"):
     include_star_show = True
 else:
     include_star_show = False
