@@ -26,7 +26,7 @@ def isValidLetter(list):
     last_digit = (((int(list[1]) * 2) + (int(list[2]) * 7) + (int(list[3]) * 6) + (int(list[4]) * 5) + (
             int(list[5]) * 4) + (int(list[6]) * 3) + (int(list[7]) * 2))) % 11
     # print(last_digit, valid_list[last_digit])
-    if valid_list[last_digit] == list[-1]:
+    if valid_list[last_digit] == str(list[-1]).upper():
         return True
     else:
         return False
